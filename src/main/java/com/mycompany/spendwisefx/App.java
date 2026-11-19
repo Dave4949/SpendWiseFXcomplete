@@ -39,7 +39,7 @@ public class App extends Application {
 
     @Override public void start(Stage stage) {
         store.load();
-        Label title = new Label("SpendWise"); title.getStyleClass().add("app-title");
+        Label title = new Label("SpendWise test"); title.getStyleClass().add("app-title");
         Label subtitle = new Label("Personal Finance Tracker"); subtitle.getStyleClass().add("subtitle");
         VBox heading = new VBox(2, title, subtitle); heading.setAlignment(Pos.CENTER);
 
